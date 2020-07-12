@@ -1,0 +1,6 @@
+cmake
+dlib
+face_recognition
+easygui
+cv2
+numpy
