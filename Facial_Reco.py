@@ -75,7 +75,7 @@ def pack():
                     file = file.lstrip('[').rstrip(']')
                     
                     '''Try to append the floating point value of the data if possible to numpy.array or else add it to the list of arrays.
-                        Or more simply if the value in file variable is a number it is the part of the encoding and if it isn't the number which means it is the name of the person.
+                        Simply if the value in file variable is a number it is the part of the encoding and if it isn't a number, means it is the name of the person.
                         Then it is the end of the faces encoding data'''
                     try:
                         y = np.append(y,float(file))
@@ -95,7 +95,7 @@ def pack():
     #Returns the encoding data of the various known faces and their names respectively
     return known_facesf,known_namesf
     
-    #Function to lower the size of the image if you have larger image files
+#Function to lower the size of the image if you have larger image files
 #Not necessarily rerquired
 #Copied this function from stack overflow can't find from where now so cant mention the person 
 
