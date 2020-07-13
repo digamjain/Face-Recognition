@@ -18,5 +18,5 @@ Or you can use jupyter notebook to run various cells in the file
 
 ## Requirements
 
-This requires two directories basically named "known faces" and "unknown faces".
+This requires two directories named "known faces" and "unknown faces".
 Inside the known faces directory it can be empty or can contain various further directories named after the person it contains the picture of and inside the unknown faces directory various random pictures of people to test the project.
